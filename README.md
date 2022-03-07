@@ -18,7 +18,7 @@ A la fin la sortie du code sera 0. A ce moment là il faudra "cut" le programme 
 - crtl+x 
 - crtl+c 
 
-Aller dans le fichier docker-compose.yml situé à la racine du dossier puis s'assurer que la variable myapp est bien comme présenté ci-dessous : 
+Aller dans le fichier `docker-compose.yml` situé à la racine du dossier puis s'assurer que la variable myapp est bien comme présenté ci-dessous : 
 
 
   myapp:
