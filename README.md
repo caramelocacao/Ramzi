@@ -19,7 +19,7 @@ Téléchargez le repot puis ouvrez votre terminale et appliquez la commande suiv
 
 A la fin la sortie du code sera 0. A ce moment là il faudra "cut" le programme en faisant : 
 
-![image](https://user-images.githubusercontent.com/92017625/157042996-db4c571c-a65a-4b08-8933-af943634dbe1.png)
+![image](https://user-images.githubusercontent.com/92017625/157044822-6f29b4f9-822a-4d21-9344-addad0a67a66.png)
 
 - crtl+x 
 - crtl+c 
