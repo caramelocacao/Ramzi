@@ -1,5 +1,6 @@
 # Advisor 
-![with-docker](https://user-images.githubusercontent.com/92017625/157022460-86b3500d-43e3-42a7-a8c5-b8b6ff77e017.svg)
+![with-docker](https://user-images.githubusercontent.com/92017625/157022460-86b3500d-43e3-42a7-a8c5-b8b6ff77e017.svg)![sanctum](https://user-images.githubusercontent.com/92017625/157023772-5223cda5-31d8-42f3-9ab8-7419f953e282.svg)
+
 
 Pour le projet "Advisor" on a mis en place une api REST laravel sous un docker. 
 
