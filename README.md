@@ -13,11 +13,13 @@ Pour le projet "Advisor" on a mis en place une api REST laravel sous un docker.
 
 ### Déploiement
 
-Voici les commandes pour déployer le docker qui contient l'API: 
+Téléchargez le repot puis ouvrez votre terminale et appliquez la commande suivante dans le dossier:
 
 `docker-compose up`
 
 A la fin la sortie du code sera 0. A ce moment là il faudra "cut" le programme en faisant : 
+
+![image](https://user-images.githubusercontent.com/92017625/157042996-db4c571c-a65a-4b08-8933-af943634dbe1.png)
 
 - crtl+x 
 - crtl+c 
@@ -38,5 +40,12 @@ Aller dans le fichier `docker-compose.yml` situé à la racine du dossier puis s
       - DB_PASSWORD=my_secret_password
 ```
 
-En commantant la ligne `command: composer update` le dossier `vendor/` de l'application se générera. 
+En commantant la ligne `command: composer update` le dossier `vendor/` de l'application se générera. Retournez dans votre terminal toujour dans votre dossier et appliquez de nouveau la commande suivante : 
+
+`docker-compose up`
+
+Votre terminale devrait ressemblez à l'image ci-dessous : 
+
+![image](https://user-images.githubusercontent.com/92017625/157043632-e7e9e8b6-ef40-4f73-a57d-1c74bc6e91ac.png)
+
 Félicitation votre application est désormais déployée. 
