@@ -6,7 +6,7 @@ Pour le projet "Advisor" on a mis en place une api REST laravel sous un docker.
 
 ## Prérequis
 
-- [1]:https://docs.docker.com/get-docker/ "Docker engine"
+- [Docker engine](https://docs.docker.com/get-docker/)
 - wsl 2 (optionnel) 
 
 ## 1ère Partie : API
