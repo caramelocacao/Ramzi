@@ -9,7 +9,7 @@ Pour le projet "Advisor" on a mis en place une api REST laravel sous un docker.
 
 Voici les commandes pour déployer le docker qui contient l'API: 
 
-- docker-compose up
+`docker-compose up`
 
 A la fin la sortie du code sera 0. A ce moment là il faudra "cut" le programme en faisant : 
 
