@@ -18,6 +18,8 @@ A la fin la sortie du code sera 0. A ce moment là il faudra "cut" le programme 
 
 Aller dans le fichier `docker-compose.yml` situé à la racine du dossier puis s'assurer que la variable myapp est bien comme présenté ci-dessous : 
 
+```dockerfile
+...
 
   myapp:
     image: docker.io/bitnami/laravel:8
@@ -30,7 +32,7 @@ Aller dans le fichier `docker-compose.yml` situé à la racine du dossier puis s
       - DB_USERNAME=root
       - DB_DATABASE=advisor
       - DB_PASSWORD=my_secret_password
-
+```
 
 En commantant la ligne `command: composer update` le dossier `vendor/` de l'application se générera. 
 Félicitation votre application est désormais déployée. 
