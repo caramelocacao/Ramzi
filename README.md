@@ -40,7 +40,7 @@ Aller dans le fichier `docker-compose.yml` situé à la racine du dossier puis s
       - DB_PASSWORD=my_secret_password
 ```
 
-En commantant la ligne `command: composer update` le dossier `vendor/` de l'application se générera. Retournez dans votre terminal toujour dans votre dossier et appliquez de nouveau la commande suivante : 
+Dans la vairable `ports` le premier port `8000:8000` représente le port de votre ordinateur, le second est celui du docker. En commantant la ligne `command: composer update` le dossier `vendor/` de l'application se générera. Retournez dans votre terminal toujour dans votre dossier et appliquez de nouveau la commande suivante : 
 
 `docker-compose up`
 
